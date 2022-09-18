@@ -1,6 +1,5 @@
 import os
 from stat import S_IWRITE,S_IREAD
-import threading
 import shutil
 
 '''
