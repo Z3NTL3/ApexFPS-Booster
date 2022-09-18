@@ -41,7 +41,6 @@ def Start():
         Start installing config
     '''
     activateWriteMode(APEX_DIR)
-    os.remove(APEX_DIR)
     create(APEX_DIR)
 
     activateReadMode(APEX_DIR)
