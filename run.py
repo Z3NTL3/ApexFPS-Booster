@@ -1,6 +1,7 @@
 import os
 from stat import S_IWRITE,S_IREAD
 import shutil
+import sys
 
 '''
     Best automated Apex Video Config Tool
@@ -43,6 +44,9 @@ def Start():
     create(APEX_DIR)
 
     activateReadMode(APEX_DIR)
+    
+    sys.stdout.write('Completed. You can launch Apex now')
+    sys.stdout.flush()
     return
 
 if __name__ == '__main__':
